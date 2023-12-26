@@ -1,0 +1,310 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+
+.nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6B7280;
+}
+
+.nav-btn {
+    width: 131px;
+    height: 52px;
+    background: transparent;
+    border: 1px solid #3730A3;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3730A3;
+}
+
+/* Hero */
+#hero {
+    margin-top: 90px;
+    height: 90vh;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4338CA;
+    margin-bottom: 40px;
+}
+
+#hero h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 72px;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+#hero .keterangan {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6B7280;
+    width: 87%;
+    margin-bottom: 40px;
+}
+
+#hero .btn-primary {
+    width: 131px;
+    height: 52px;
+    left: 130px;
+    top: 734px;
+    background: #3730A3;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+#hero .btn-secondary {
+    width: 157px;
+    height: 52px;
+    left: 281px;
+    top: 734px;
+    background: #FFFFFF;
+    border: 1px solid #3730A3;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3730A3;
+}
+
+#hero .img-hero {
+    height: 100%;
+    width: 100%;
+}
+
+/* Layanan */
+
+#layanan {
+    margin-top: 150px;
+}
+
+#layanan h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #1F2937;
+}
+
+#layanan span {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #3730A3;
+}
+
+.layanan-isi {
+    margin-top: 120px;
+}
+
+#layanan h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F2937;
+}
+
+.p-isi {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6B7280;
+}
+
+#layanan p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3730A3;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.layanan-img{
+    width: 100%;
+    height: 100%;
+}
+
+.review{
+    margin-top: 80px;
+}
+
+/* Sponsor */
+
+#sponsor{
+    margin-top: 150px;
+    width: 100%;
+    height: 299px;
+    background: #FEF2F2;
+    margin-bottom: 150px;
+
+}
+
+#sponsor p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #9CA3AF;
+}
+
+li{
+    list-style-type: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Project */
+
+.kotak{
+    width: 536px;
+    height: 900px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(image);
+    position: relative;
+}
+
+.card-fasilitas{
+    width: 495px;
+    height: 94px;
+    background: #FFFFFF;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 20px;
+}
+
+#project p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9CA3AF;
+    margin-top: 0px;
+}
+
+#project h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F2937;
+}
+
+
+/* Financial */
+
+#financial{
+    margin-top: 150px;
+}
+
+#financial p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9CA3AF;
+    width: 100%;
+}
+
+#financial h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #374151;
+    margin-bottom: 20px;
+}
+
+
+/* career */
+
+#career{
+    margin-top: 150px;
+}
+
+#career h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.judul-p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B7280;
+}
+
+.isi{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B7280;
+}
+
+#career span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F2937;
+}
+
+/* footer */
+
+#footer{
+    margin-top: 150px;
+    width: 100%;
+    height: 480px;
+    background: #FEF2F2;
+}
+
+#footer h1{
+    padding-top: 111px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #374151;
+}
+
+#footer p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9CA3AF;
+    margin-bottom: 100px;
+}
+
+#footer img{
+    margin-right: 50px;
+}
